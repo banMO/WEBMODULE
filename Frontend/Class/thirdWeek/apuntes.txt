@@ -1,0 +1,7 @@
+No existe css sin html.
+dos partes
+    seleccionar elemento html
+    Seleccionar cambios visuales
+
+Pre-css
+1967 

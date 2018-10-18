@@ -1,0 +1,34 @@
+table {
+    border: 1px solid #666;
+}
+tr, td, th {
+    border: 1px solid #ccc;
+} 
+thead{
+    font-size: 20px;
+    background-color: #009688;
+}
+.tag{
+    font-size: 18px;
+    text-align: center;
+}
+.divClass {
+    background-color: #666;
+    height: 40px;
+    width: 60px;
+}
+.fontVariant {
+    font-variant: small-caps;
+}
+.italic {
+    font-style: italic;
+}
+.oblique {
+    font-style: oblique;
+}
+h5 {
+    font-size: 130%;
+}
+h4 {
+    font-size: 160%;
+}

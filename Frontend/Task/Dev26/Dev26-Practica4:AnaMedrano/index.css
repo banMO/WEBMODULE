@@ -1,0 +1,107 @@
+table {
+    border: 1px solid #666;
+}
+tr, td, th {
+    border: 1px solid #ccc;
+} 
+thead{
+    font-size: 20px;
+    background-color: #dedede;
+}
+h5 {
+    font-size: 130%;
+}
+h4 {
+    font-size: 160%;
+}
+tbody {
+    background-color: #f6f1ed;
+}
+.property{
+    font-size: 18px;
+    text-align: center;
+}
+.divClass {
+    background-color: #666;
+    height: 40px;
+    width: 60px;
+}
+.fontVariant {
+    font-variant: small-caps;
+}
+.italic {
+    font-style: italic;
+}
+.oblique {
+    font-style: oblique;
+}
+.colorDiv {
+    background-color: #666;
+    width: 80px;
+    height: 100px;
+}
+.font {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
+    font-size: 30px; 
+}
+.weightExample {
+    font-weight: lighter;
+}
+.boldExample {
+    font-weight: bold;
+}
+.paddingExample {
+    height: 40px;
+    width: 200px;
+    background-color:#BCAAA4;
+}
+.paddingExample1 {
+    height: 40px;
+    width: 200px;
+    background-color:#BCAAA4;
+    padding: 10px 10px 10px 10px;
+}
+.divMargin1 {
+    height: 40px;
+    width: 200px;
+    background-color:#BCAAA4;
+}
+.divMargin2 {
+    height: 40px;
+    width: 200px;
+    background-color:#BCAAA4;
+    margin-top: 30px;
+}
+.textIndentExample {
+    text-indent: 50px;
+}
+.decoration1 {  
+    text-decoration-line: overline; 
+}
+.decoration2 {
+    text-decoration-line: underline; 
+}
+.decoration3 {
+    text-decoration-line: line-through; 
+}
+.decoration4 {
+    text-decoration-line: overline underline; 
+}
+.wordSpacingExample {
+    word-spacing: 50px;
+}
+.textAlignExample {
+    text-align: justify;
+}
+h1 {
+    text-shadow: 2px 2px #ff8080;
+}
+.widthExample {
+    height: 150px;
+    width: 200px;
+    background-color: #BCAAA4;
+}
+body {
+    font-family: "Cabin";
+    font-size: 15px;
+}

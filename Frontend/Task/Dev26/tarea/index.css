@@ -6,7 +6,16 @@ tr, td, th {
 } 
 thead{
     font-size: 20px;
-    background-color: #009688;
+    background-color: #dedede;
+}
+h5 {
+    font-size: 130%;
+}
+h4 {
+    font-size: 160%;
+}
+tbody {
+    background-color: #f6f1ed;
 }
 .tag{
     font-size: 18px;
@@ -26,9 +35,8 @@ thead{
 .oblique {
     font-style: oblique;
 }
-h5 {
-    font-size: 130%;
-}
-h4 {
-    font-size: 160%;
+.color {
+    background-color: #009900;
+    width: 80px;
+    height: 100px;
 }

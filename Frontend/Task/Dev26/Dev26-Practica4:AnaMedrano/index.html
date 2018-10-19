@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./index.css">
+        <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+        <title>Practice 4</title>
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        <!-- Write here your table -->
+        <table>
+            <caption>PROPERTIES CSS</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Properties</th>
+                    <th>Description</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Color</td>
+                    <td class="property">color and background - color </td>
+                    <td>
+                        CSS offers the following options for setting color values:
+                        <ul>
+                            <li>Color keywords</li>
+                            <li>Hexadecimal notation</li>
+                            <li>RGB (red, green, blue) format</li>
+                            <li>HSL (hue, saturation, lightness) format (CSS3)</li>
+                            <li>RGBA (red, green, blue with alpha transparency) format (CSS3)</li>
+                            <li>HSLA (hue, saturation, lightness with alpha transparency) format (CSS3)</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <div class="colorDiv">Este texto se verá de color rojo.</div>
+                    </td>
+                </tr>
+                <tr>
+
+                </tr>                <tr>
+                    <td rowspan="5" class="property" >Font</td>
+                    <td class="property">font-family</td>
+                    <td>Css define five categories.these categories are: serif, sans-serif, cursive, fantasy and monospace. </td>
+                    <td>
+                        <p class="font">Font - family</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="property">font-size</td>
+                    <td>you'll first have to pick between absolute or relative units.
+                        <ul>
+                            <li>Absolute sizes are commonly specified in pixels and pixels give you very precise control over the font size.</li>
+                            <li>Relative units, like percenpropertyes or the keywords larger or smaller or ems, they allow you set a font size based on some baseline, so 2em would be twice the size of the baseline and 0.This permit a user scale up the text.</li>
+                        </ul>
+                     </td>
+                     <td>
+                         <h4>Heading 4</h4>
+                         <h5>Heading 5</h5>
+                     </td>
+                </tr>
+                <tr>
+                    <td class="property">font-style</td>
+                    <td> With this property you can choose to display a font in one of three ways. The following rules create three classes (normal,
+                    italic, and oblique)</td>
+                    <td>
+                        <p>Here are some CSS rules being applied to this Example</p>
+                        <p>
+                             .italic { font-style: italic; }
+                            .oblique { font-style: oblique; }
+                        </p>
+                        <p>Here is the result:</p> 
+                        <p>Normal</p>
+                        <p class = "italic">Italic</p>
+                        <p class = "oblique">Oblique</pvclass->
+                    </td>
+                </tr>
+                <tr>
+                    <td class="property">font-weight </td>
+                    <td>It is appropriate to distribute the text in paragraphs, use when have lots of text to display</td>
+                    <td>
+                        lighter
+                        <p class="weightExample">
+                            El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo para aquellos interesados. 
+                        </p>
+                        bold
+                        <p class="boldExample">
+                            El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo para aquellos interesados. 
+                        </p>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="property">font-variant</td>
+                    <td>
+                     Specifies whether the font should be presented in a variant form. Not all browsers and fonts support this feature. The keywords
+                    for this property are <span> normal, small-caps, and inherit</span>.
+                    </td>
+                    <td>
+                        <p>lowercase letters</p>
+                        <P class="fontVariant">uppercase letters</P>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="3" class="property">Spacing</td>
+                    <td class="property"> Padding</td>
+                    <td>
+                        Padding adds space between the border of a box an the content of a box.
+                        Padding pushes content inward.
+                         </td>
+                    <td>
+                        Without padding
+                        <div class="paddingExample">
+                            Mi name is Ana, I live at Pando Avenue
+                        </div>
+                        with padding
+                        <div class="paddingExample1">
+                                Mi name is Ana, I live at Pando Avenue
+                        </div>                      
+                    </td>
+                </tr>
+                <tr>
+                    <td class="property">Margin</td>
+                    <td>
+                        Margins are the space between a box and any adjacent elements.
+                        Magins push boxes away from other boxes
+                    </td>
+                    <td>
+                        <div class="divMargin1"></div>
+                        <div class="divMargin1"></div>
+                        <div class="divMargin2"></div>
+                        <div class="divMargin2"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="property">Sides</td>
+                    <td colspan="2"> That boxes have four sides : left, rigth, top and bottom</td>
+
+                </tr>
+                <tr>
+                    <td  rowspan="2" class="property">Size</td>
+                    <td class="property">Width</td>
+                    <td>You can set the width of an element inside of a rule, it is a simple property value and like most measurement you can specify pixels, millimeters, inches or relative width like 50% </td>
+                    <td rowspan="2">
+                        <div class="widthExample">
+
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="property">Heigth</td>
+                    <td>The height property sets the height of an element.It has another properties as min-height
+                            and max-height</td>
+
+                </tr>
+                <tr>
+                    <td rowspan="5" class="property">Text</td>
+                    <td>text-indent</td>
+                    <td>Indent the first line of text with different values</td>
+                    <td>
+                        <div class="textIndentExample">
+                            El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo para aquellos 
+                            interesados.
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>text-decoration-line</td>
+                    <td>
+                        Set different types of text-decoration lines
+                        Value:	none | [ underline || overline || line-through || blink ]</td>
+                    <td>
+                        <div class="decoration1">overline</div>
+                        <div class="decoration2">underline</div>
+                        <div class="decoration3">line-through</div>
+                        <div class="decoration4">overline underline</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="property">word-spacing</td>
+                    <td>This property increases or decreases the white space between words.</td>
+                    <td>
+                        <p class="wordSpacingExample">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
+                            euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="property">text-align</td>
+                    <td>
+                        The text align property in CSS is used for aligning the inner content of a block element.
+                        left - The default value. Content aligns along the left side.
+                        <ul>
+                            <li>Right - Content aligns along the right side.</li>
+                            <li>Center - Content centers between the left and right edges. White space on the left and right sides of each line should be equal.</li>
+                            <li>Justify - Content spaces out such that as many blocks fit onto one line as possible and the first word on that line is along the left edge and the last word is along the right edge.</li>
+                            <li>Inherit - The value will be whatever the parent element</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <p class="textAlignExample">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
+                            euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="property">text-shadow</td>
+                    <td>The text shadow property adds shadow to text.</td>
+                    <td>
+                        <h1>Text shadow</h1>
+                    </td>
+                </tr>
+            </tbody>
+        </table>        
+    </body>
+</html>

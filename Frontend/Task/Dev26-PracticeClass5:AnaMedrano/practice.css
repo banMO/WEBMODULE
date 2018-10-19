@@ -1,0 +1,26 @@
+.style-header {
+    background-color: #ff3333;
+    padding-bottom: 6px;
+    border-bottom: 3px solid #ffcc00;
+}
+h1, p{
+    border-bottom: 3px solid white;
+    color: white;
+}
+#blog-section {
+    background-color: #ffcc00;
+    padding-bottom: 6px;
+}
+h2 {
+    border-bottom: 5px solid black;
+}
+.blog-article-left {
+    background-color: white;
+}
+#blog-article-right {
+    background-color: white;
+}
+.style-footer {
+    background-color: #3366cc;
+    color: white;
+}

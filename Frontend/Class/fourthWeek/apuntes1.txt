@@ -1,0 +1,33 @@
+------------------------------------REACT----------------------------------------------
+libreria para construir interfaces de usuario 
+maneja componentes 
+los componentes son reutilizables
+separation of c single responsability principle solo hace u na cosa y lo hace bien SOLID
+cada componente tien js css htlm
+
+    *Virtual DOM
+    *high performant
+    *Single page application
+    *Big community
+
+Angular REACT Vue
+
+FIRST STEPS
+    *React:
+    *React DOM
+
+    props es un json
+    solo se usa un elemento root
+
+
+flujo del built
+optimiza codigo minificacion
+use next
+dependency mangement tools npm    yarn
+bundler webpack
+compiler babel
+Dev server
+npm manejar paquetes
+
+progressive web app para descargar aplicaciones permite que ser offline
+servicio del manejador hace una especie de multihilo registrar single node

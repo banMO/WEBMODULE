@@ -1,0 +1,70 @@
+SECOND OPTION
+----------------------------------------------------------
+JS
+function Person(props) {
+  return (
+    <div class="person">
+      <h1>{ props.name }</h1>
+      <p>{ props.age }</p>
+    </div>)
+}
+const app = (
+  <div>
+    <Person name="AMALIA" age="23"/>
+    <Person name="Raul" age="23"/>
+  </div>
+)
+ReactDOM.render(
+               app,
+              document.querySelector("#app"));
+-----------------------------------------------------------
+html
+<div id="app"></div>
+-----------------------------------------------------------
+css
+.person {
+  display: inline-block;
+  margin: 10px;
+  border: 10px solid #eeee;
+  box-shadow: 0 2px 2px #ccc;
+  width: 200px;
+  padding: 20px;
+}
+
+first OPTION
+---------------------------------------------------------
+function Person(props) {
+  return (
+    <div class="person">
+      <h1>{ props.name }</h1>
+      <p>{ props.age }</p>
+    </div>)
+}
+ReactDOM.render(<Person name="AMALIA" age="23"/>,
+               document.querySelector('#id1'))
+ReactDOM.render(<Person name="Raul" age="23"/>,
+               document.querySelector('#id2'))
+ReactDOM.render(<Person name="Ilsen" age="23"/>,
+               document.querySelector('#id3'))
+
+-----------------------------------------------------
+html
+<div id="id1"></div>
+<div id="id2"></div>
+<div id="id2"></div>
+
+
+
+function Person(props) {
+  return (
+    <div class="person">
+      <h1>{ props.name }</h1>
+      <p>{ props.age }</p>
+    </div>)
+}
+const app = (
+  <Person name="AMALIA" age="23"/>
+  
+)
+ReactDOM.render(<Person name="AMALIA" age="23"/>,
+               document.querySelector('#app'))

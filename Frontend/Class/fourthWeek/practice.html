@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Register user</h1>
+    <form  name="userRegister" action="" method="POST">
+        <div class="form-row">
+            <label for="form-username-input">User name:
+                <input type="text"
+                       name="username"
+                       id="form-username-input"
+                       value="Ana" >
+            </label>
+        </div>
+        <div class="form-row">
+            <label for="form-lastname-input">Last name:</label>
+                <input type="text"
+                       name="lastname"
+                       id="form-lastname-input"
+                       value="Medrano" >
+        </div>
+        <div class="form-row">
+            <label for="form-module-input"></label>
+            <select name="module" id="form-module-input" tag="module-List">
+                <option value="dev26">dev-26</option>
+                <option selected value="dev25">dev-25</option>
+                <option value="dev24">dev-24</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="submit">
+            <button type="button" value="Action" onclick="onActionClick()">Onclick</button>
+        </div>
+    </form>
+    <script>
+        function onActionClick()
+        {
+            console.log('User name:' + document.getElementById('form-lastname-input').value);
+            console.log('Module:' + document.getElementById('form-module-input').value);
+            console.log('Module tag:' + document.getElementsByTagName('select')[0].value);
+            console.log('Rows:' + document.getElementsByClassName('form-row').length);
+        }
+    </script>
+</body>
+</html>

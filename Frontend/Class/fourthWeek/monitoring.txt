@@ -1,0 +1,34 @@
+class Sudoku {
+    constructor(board,inputFormat, outputFormat, level) {
+        this.board = board;
+        this.inputFormat = inputFormat;
+        this.outputFormat = outputFormat;
+        this.level = level;
+    }
+}
+
+function createSudoku(data, inputFormat, outputFormat, level) {
+
+    var dataSudoku = Array.prototype.map.call(data, i => i); 
+    console.log(dataSudoku);
+    let sizeBoard = Math.sqrt(dataSudoku.length);
+    const board = new Array(sizeBoard);
+    let position = 0;
+    
+    for (let index = 0; index < sizeBoard; index++) {
+        board[index] = [];
+
+        for (let i = 0; i < sizeBoard; i++) {
+            board[index].push(dataSudoku[position]);
+            position++;
+        }        
+    }
+    var SudokuObject = new Sudoku(board, inputFormat, outputFormat, level);
+    return SudokuObject;
+}
+
+Lerna te permite manejar dependencias  para el issue tracker servicios, frontend, backend
+manejar repo separado issue tracket
+manejador de paquetes para tener todo en uno
+DEFAULT packages es como tener microservicios
+Husky--> 

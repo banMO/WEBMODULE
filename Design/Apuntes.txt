@@ -1,0 +1,5 @@
+UX enfocado al usuario crear productos que resuelveb necesidades del usuario
+    *usar una buena narracion
+    *arquitectura realiza mapas conceptuales determinan el fluejo de la pagina 
+    *testeo 
+objetivo define el usuario meta

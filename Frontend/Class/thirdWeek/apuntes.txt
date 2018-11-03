@@ -5,3 +5,25 @@ dos partes
 
 Pre-css
 1967 
+width ancho especifico al selector
+min width si quiero que cresca
+max width no quiero que cresza
+css block elements vs inline elements
+    BOCK 
+        div
+        p
+        section
+    inline no se puede definir ancho
+        span
+        img
+        a
+
+        *specificity peso de selectores cuan espefico aumentamos reemplaza*
+
+anidar elementos
+    section div p{
+
+    }
+class
+id nombre unico 
+en los nombres de ambos usar -

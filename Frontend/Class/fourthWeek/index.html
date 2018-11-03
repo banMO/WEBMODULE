@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Register User</h1>
+    <form name="userRegister" action="http://localhost:8080" method="POST">
+        <div class="form-row">
+            <label for="form-user-name">User name:</label>
+            <input type="text"
+                    name="username"
+                    id="form-user-name"
+                    value="Default">
+        </div>
+        <div class="form-row">
+            <label for="form-last-name">Last name:</label>
+            <input type="text"
+                    name="lastname"
+                    id="form-last-name"
+                    value="Default">
+        </div>
+        <div class="form-row">
+            <label for="form-module">module:</label>
+            <select name="" id="" >
+                <option value="dev25" >Dev25</option>
+                <option value="dev26" selected>Dev26</option>
+            </select>
+        </div>
+        <div class="form-row">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>

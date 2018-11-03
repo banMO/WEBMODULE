@@ -1,0 +1,40 @@
+Form
+    name da nombre al formulario
+    input text name value  definir id y ese es el
+    label poner cabezera descripcion ---->for relaciona input con label
+    son elementos inline
+    submit enva la informacion
+JS
+    ajax
+    es compilado  el navegador lo compila genera codigo interno
+    hoisting
+    archivos js se debe poner antes del final del body porque asi ya se renderiza todos nuestros elementos.
+    async 
+    defer si importa la carga de nuestro javascript lo carga de manera ordenada
+
+    Global Object
+    --->window object es root contiene propiedades
+    --->Document se genera el DOM sacar elementos html
+        *getElemntById() SINGLE
+        *getElemntByClassName() MULTIPLE
+        *--------EventListener
+
+SECOND Class
+event listeners propiedades
+    click
+    EventListener solo un callback
+        *drag
+        *scroll
+        *submit
+        *load
+        *mouseover
+        son definidos hasta el final de la aplicacion
+        se puede remover los listeners el nombre de la function
+event handler
+    -
+    *
+    *
+
+KEYBOARD
+    KEYPRESS omite cualquier tecla que no aumente caracteres al
+    KEYDOWN agrega solo caracteres 
